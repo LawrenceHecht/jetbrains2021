@@ -1,0 +1,526 @@
+shortname,question_title,type,page,place
+os_devenv,On which operating systems are your development environments?,CHECKBOX,3,5
+mobile_target_os,For which mobile operating systems do you develop?,CHECKBOX,42,1
+proglang,What programming languages have you used in the last 12 months?,CHECKBOX,7,2
+tools_vcs,"Which Version Control systems do you regularly use, if any?",CHECKBOX,17,4
+contribute_os,Do you contribute to open-source projects?,RADIO,51,4
+hours_code_job,How many hours a week do you spend coding for your day job (or primary activity)?,RADIO,51,2
+tools_adopted,Which of the following kinds of tools have you / your team <strong>adopted</strong> in the past 12 months?,CHECKBOX,18,1
+unittests_how,How do you do unit testing in your projects?,RADIO,13,3
+team_size,How many people are in your project team?,RADIO,59,1
+team_distributed,How is your team distributed?,RADIO,59,4
+java_version,Which versions of <u>Java</u> do you regularly use?,CHECKBOX,40,2
+java_app_server,"What application servers do you regularly use, if any?",CHECKBOX,40,3
+java_app_frameworks,"Which frameworks do you use as an alternative to an application server, if any?",CHECKBOX,40,4
+java_package,How do you package your web applications?,CHECKBOX,40,5
+java_web_frameworks,"What web frameworks do you use, if any?",CHECKBOX,40,7
+java_buildsystem,"Which build systems do you regularly use, if any?",CHECKBOX,40,8
+company_size,How many people work for your company / organization?,RADIO,58,1
+job_role,Which of the following best describes your job role regardless of the level of your position?,CHECKBOX,3,3
+age_range,Could you tell us your age range?,RADIO,4,4
+adopt_proglang,"Do you plan to adopt / migrate to other languages in the next 12 months? If so, to which ones? ",CHECKBOX,10,2
+cloud_services,Which cloud services do you use? ,CHECKBOX,48,3
+tools_cloud,Do you use any of the following tools in the cloud?,CHECKBOX,18,4
+where_sources,Where do you keep your source code?,CHECKBOX,18,5
+java_ee,"Which versions of Java Enterprise specifications do you regularly use, if any?",CHECKBOX,40,9
+java_profiler,"Which JVM profilers do you regularly use, if any?",CHECKBOX,40,10
+java_ide,Which IDE / editor do you use the most for Java development? ,RADIO,40,11
+c_standart,Which <u>C</u> standard do you regularly use?,CHECKBOX,19,2
+c_ide,Which IDE / editor do you use the most for C development?,RADIO,19,3
+c_unittesting,"Which unit-testing frameworks do you regularly use, if any?",CHECKBOX,19,4
+c_projectmodels,"Which project models or build systems do you regularly use, if any?",CHECKBOX,19,5
+c_compilers,Which compilers do you regularly use?,CHECKBOX,19,7
+cpp_standart,Which <u>C++</u> standards do you regularly use?,CHECKBOX,20,2
+cpp_ide,Which IDE / editor do you use the most for C++ development?,RADIO,20,9
+cpp_unittesting,"Which unit-testing frameworks do you regularly use, if any?",CHECKBOX,20,11
+cpp_projectmodels,"Which project models or build systems do you regularly use, if any?",CHECKBOX,20,14
+cpp_compilers,Which compilers do you regularly use?,CHECKBOX,20,15
+cpp_cli,Do you use C++ / CLI ?,RADIO,20,8
+cpp_project_size,What is the typical size and complexity of your project(s)?,RADIO,20,20
+python_vesion,Which version of <u>Python</u> do you use the most? ,RADIO,21,2
+python_ide,Which IDE / editor do you mostly use for Python development?,RADIO,21,8
+csharp_version,What versions of <u>C#</u> do you regularly use?,CHECKBOX,22,2
+csharp_runtimes,What runtimes do you regularly use?,CHECKBOX,22,4
+csharp_frameworks,"Which technologies / frameworks do you use, if any? ",CHECKBOX,22,5
+csharp_ide,Which IDE / editor do you mostly use for C# development?,RADIO,22,6
+csharp_vsversion,What version of Visual Studio do you use the most?,RADIO,22,10
+csharp_unittesting,"Which unit-testing frameworks do you regularly use, if any?",CHECKBOX,22,13
+csharp_performance,"What performance or diagnostic tools do you regularly use, if any?",CHECKBOX,22,14
+php_version,Which version of <u>PHP</u> do you regularly use? ,CHECKBOX,23,2
+php_devenviron,Which PHP development environments do you regularly use?,CHECKBOX,23,3
+php_ide,Which editor / IDE do you mostly use for PHP development?,RADIO,23,8
+php_testing,"Which testing frameworks do you regularly use, if any?",CHECKBOX,23,9
+js_frameworks,"What <u>JavaScript</u> frameworks do you regularly use, if any?",CHECKBOX,30,2
+js_ide,What editor / IDE do you mostly use?,RADIO,30,3
+js_unittesting,"Which unit-testing frameworks / tools do you regularly use, if any? ",CHECKBOX,30,4
+js_moduleloader,"What module loaders do you regularly use, if any?",CHECKBOX,30,5
+ruby_version,Which versions of <u>Ruby</u> do you use <u>the most</u>?,CHECKBOX,25,2
+ruby_gemmanagement,"Which gem management tools do you regularly use, if any?",CHECKBOX,25,5
+ruby_gems_count,"How many gems have you authored, if any?",RADIO,25,6
+ruby_frameworks,"What web development tools and / or frameworks do you regularly use, if any? ",CHECKBOX,25,7
+ruby_rails_version,Which version of Rails do you use?,RADIO,25,8
+ruby_servers,"Which servers do you regularly use in production, if any?",CHECKBOX,26,2
+ruby_ide,What editor / IDE do you mostly use for Ruby development?,RADIO,26,3
+ruby_unittesting,"Which unit-testing frameworks do you regularly use, if any?",CHECKBOX,26,4
+swiftoc_unittesting,"Which unit-testing frameworks do you regularly use, if any? ",CHECKBOX,27,7
+swiftoc_ui_tests,Do you use UI tests?,RADIO,27,9
+swiftoc_dependecymanager,"Which dependency manager do you use, if any? ",CHECKBOX,27,11
+swiftoc_db_engine,Which database engine / framework combination do you use? ,CHECKBOX,27,13
+swiftoc_linux,Do you develop with Swift on Linux?,RADIO,27,16
+sql_tool,Which tools do you regularly use for working with databases?,CHECKBOX,39,2
+use_static_analysis,Do you use static analysis?,RADIO,51,1
+regularly_tools,Which of the following tools do you regularly use?,CHECKBOX,14,1
+ruby_rails_version_migrate,"Do you plan to move to a newer <u>Rails</u> version in the next 12 months? If so, to which one?",RADIO,26,1
+scala_java_version,Which versions of <u>Java</u> do you regularly use?,CHECKBOX,28,4
+scala_frameworks_web,"Which frameworks / libraries do you regularly use <u><strong>for web-development</strong></u>, if any?",CHECKBOX,28,6
+scala_ide,What editors / IDEs do you use most for Scala?,RADIO,28,8
+scala_buildsystem,"Which build systems do you regularly use, if any?",CHECKBOX,29,2
+scala_macros,Do you have macros in your project?,RADIO,29,6
+target_os,Which platforms do you target with your projects?,CHECKBOX,3,9
+php_frameworks,"Which PHP frameworks and platforms do you regularly use, if any?",CHECKBOX,23,5
+devops_conf_management,What configuration management tools do you / your organization use?,CHECKBOX,47,2
+ruby_version_management,Which tools do you use to manage different versions of Ruby?,CHECKBOX,25,4
+agile_framework,"What agile software development framework do you use in your team, if any? ",RADIO,59,2
+hours_code_hobby,How much time do you spend on personal programming or side projects NOT related to your day job (or primary activity)?,RADIO,51,3
+ides,Which IDEs / Editors do you regularly use?,CHECKBOX,14,3
+mobile_os_how,How do you develop for mobile operating systems?,CHECKBOX,42,2
+mobile_crossplatform_frmwrk,Which cross-platform mobile frameworks do you use?,CHECKBOX,42,3
+python_for,What do you use Python for?,CHECKBOX,21,3
+csharp_os,What operating system is your C# development environment using?,CHECKBOX,22,8
+csharp_vsc_plugins,"Which plugins for Visual Studio Code do you use, if any?",CHECKBOX,22,9
+scala_version,Which versions of <u>Scala</u> do you regularly use?,CHECKBOX,28,2
+scala_compilationtarget,What are your compilation targets?,CHECKBOX,28,3
+scala_unittesting,"Which unit-testing frameworks do you regularly use, if any?",CHECKBOX,28,5
+python_other_techs,What other technologies do you use in addition to Python?,CHECKBOX,21,7
+kotlin_how_long,"How long have you been using Kotlin?
+<div id=""gtx-trans"" style=""position: absolute; left: -22px; top: -20px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",RADIO,24,6
+scala_frameworks,Which frameworks / libraries do you regularly use?,CHECKBOX,28,7
+scala_sbt,Which versions of sbt do you regularly use?,CHECKBOX,29,3
+scala_interactive,Which interactive Scala environments do you regularly use?,CHECKBOX,29,4
+scala_compiler_plugins,Which compiler plugins do you regularly use for Scala?,CHECKBOX,29,5
+go_multipleversions,Do you use multiple versions of Go at the same time?,RADIO,35,3
+go_gopath,Do you have a single global GOPATH or use one GOPATH per project?,RADIO,35,4
+go_multipleprojects,Do you edit multiple Go projects at the same time?,RADIO,35,5
+go_packagemanager,"Which package managers do you use regularly, if any?",CHECKBOX,35,7
+go_packagemanager_migrate,Do you plan to migrate to another package manager in the next 12 months?,CHECKBOX,36,1
+go_frameworks,"Which Go web frameworks do you use regularly, if any?",CHECKBOX,36,2
+go_router,"Which Go router do you use regularly, if any?",CHECKBOX,36,5
+go_testing,"Which testing frameworks do you use regularly, if any?",CHECKBOX,36,6
+go_external_deps,How many external dependencies do you have in your projects?,RADIO,36,7
+go_code_size,What is the size of the codebase you are working with in the IDE / editor?,RADIO,36,8
+primary_proglang,What are your primary programming languages? Choose no more than 3 languages.,CHECKBOX,10,1
+kotlin_languages_before,What languages did you use before you switched to Kotlin?,CHECKBOX,24,9
+scala_ide_additional,"What additional editor / IDE do you use for Scala the most, if any?",RADIO,29,1
+devops_server_templating,What server templating tools do you / your organization regularly use?,CHECKBOX,47,3
+devops_container_orchestration,"What container orchestration services do you use in production, if any?",CHECKBOX,47,7
+devops_keep_artifacts,"Where do you keep your artifacts, if you do?",CHECKBOX,47,10
+learn_pl,"What programming languages have you started learning / continued to learn in the last 12 months, if any?",CHECKBOX,54,2
+learn_what,"What did you use to learn new tools / technologies / programming languages in the last 12 months, if you did?",CHECKBOX,54,3
+ide_theme,Do you prefer a dark or light theme for your Editor / IDE?,RADIO,57,1
+it_core,Is IT your company’s core business?,RADIO,58,3
+sectors_it,In which of the following sectors is your company primarily active?,CHECKBOX,58,4
+sectors_nonit,In which of the following sectors is your company primarily active?,CHECKBOX,58,5
+pairprog_do,Do you practice pair programming?,CHECKBOX,59,3
+devops_infr_provisioning,What infrastructure provisioning tools do you / your organization use?,CHECKBOX,47,5
+devops_involved,To what degree are you personally involved in infrastructure development?,RADIO,47,1
+kind_of_dev,What kind of development does your company do?,CHECKBOX,58,6
+java_unittesting,"Which unit-testing frameworks do you use, if any?",CHECKBOX,40,6
+tools_use,What kinds of tools do you use?,TABLE,18,2
+swiftoc_platforms,Which Apple platforms do you develop for?,CHECKBOX,27,2
+swiftoc_cpp_libs,Do you have C++ code / C++ libraries in your project?,RADIO,27,5
+swiftoc_ui_frameworks,"Which UI testing frameworks do you regularly use, if any?",CHECKBOX,27,10
+swiftoc_db_viewer_do,Do you use an external database viewer?,RADIO,27,14
+swiftoc_db_viewer,Which database viewer do you use the most?,RADIO,27,15
+swiftoc_together,Do you use Swift and Objective-C together in the same project?,RADIO,27,4
+employment_status,What is your employment status?,RADIO,3,2
+test_types,What types of tests do you have in your projects?,CHECKBOX,13,2
+db,"Which databases have you used in the last 12 months, if any?",CHECKBOX,13,4
+c_dependencymanager,What dependency managers do you use in your projects?,CHECKBOX,19,6
+cpp_dependencymanager,How do you manage your third party libraries in C++?,CHECKBOX,20,12
+cpp_guidelines_tools,Which of the following tools do you or your team use for guideline enforcement or other code quality/analysis? (Select all that apply),CHECKBOX,20,18
+cpp_guidelines_sources,Which of the following coding advice/guidelines sources do you or your team actively use?,CHECKBOX,20,19
+python_ds_libs,What data science frameworks do you use in addition to Python?,CHECKBOX,21,5
+python_other_libs,Which of the following frameworks / libraries do you use in addition to Python?,CHECKBOX,21,6
+python_web_libs,What web frameworks / libraries do you use in addition to Python?,CHECKBOX,21,4
+js_sslang,What style sheet languages and approaches do you regularly use?,CHECKBOX,30,6
+learn_time,How much time per week do you spend on learning new tools / technologies / programming languages?,RADIO,54,6
+learn_kind_of_content,What kind of learning content do you prefer?,RADIO,54,5
+php_qualitytools,"What additional quality tools do you use regularly, if any?",CHECKBOX,23,10
+php_templateengines,What template engines do you use?,CHECKBOX,23,11
+php_profiler,What tools for profiling or measuring performance do you use?,CHECKBOX,23,12
+devops_use_docker,How do you use containers?,CHECKBOX,47,6
+go_modules_outside,Do you put your Go modules project inside or outside the GOPATH?,RADIO,36,9
+go_migrate,Do you plan to migrate your projects to Go modules in the next 12 months?,RADIO,36,10
+csharp_vsplugins,What plugins do you use with Visual Studio?,CHECKBOX,22,7
+csharp_vsedition,What edition of Visual Studio do you use?,RADIO,22,11
+swiftoc_mock,Which mock / matcher frameworks do you use?,CHECKBOX,27,8
+kotlin_jdk,Which JDK versions do you target with Kotlin? ,CHECKBOX,24,3
+kotlin_purposes,"What do you use Kotlin for?
+<div id=""gtx-trans"" style=""position: absolute; left: -16px; top: 25px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",CHECKBOX,24,7
+kotlin_projecttypes,What types of projects do you primarily use Kotlin for?,CHECKBOX,24,8
+communication_tools,Which of the following communication tools do you regularly use for work?,CHECKBOX,14,2
+space_tools_mobile,"For which of the following tools do you use mobile apps, if any?",CHECKBOX,53,1
+space_chat,Which instant messengers / chat tools do you use at work? ,CHECKBOX,53,7
+space_video_calls,Which tools do you use for video calls / video conferences in your company / organization?,CHECKBOX,53,8
+space_knowledge_base,Which tools do you use in your company / organization for Knowledge Sharing?,CHECKBOX,53,9
+space_document_collaboration,What document collaboration platforms do you use in your company / organization?,CHECKBOX,53,11
+space_file_sharing,What file sharing tools or services do you use in your company / organization?,CHECKBOX,53,10
+swiftoc_serverside,Do you develop server-side projects using Swift?,RADIO,27,17
+swiftoc_serverside_frameworks,Which frameworks do you use for server-side development with Swift?,CHECKBOX,27,18
+rust_how,How do you use Rust?,CHECKBOX,31,2
+rust_how_long,How long have you been using Rust?,RADIO,31,3
+rust_other_langs,Which programming languages do you use in your projects along with Rust?,CHECKBOX,31,4
+rust_code_interact,How does Rust code interact with the other parts:,CHECKBOX,31,5
+rust_ide,What IDEs / editors do you use for Rust development?,CHECKBOX,31,7
+rust_profiler,What profiling tools do you use for Rust?,CHECKBOX,34,4
+terms,"<strong><span style=""font-size:16px;""><span style=""color:#B22222;"">* </span>Indicates a required question<br /><br /><a href=""https://www.jetbrains.com/legal/terms/survey-terms.html"" target=""_blank"">Survey Terms and Conditions</a></span></strong>",CHECKBOX,2,3
+rust_platforms,What platform do you target with your Rust projects?,CHECKBOX,34,6
+rust_devs_count,How many developers work on your Rust codebase?,RADIO,34,7
+space_calendar,What calendar software do you use in your company / organization?,CHECKBOX,53,5
+space_mail_service,Which corporate mail services / tools do you use in your company / organization?,CHECKBOX,53,6
+where_host,Where do you host your databases and / or services and / or applications that you or your company develop?,CHECKBOX,48,1
+where_host_primarly,Where do you primarily host? ,RADIO,48,2
+rust_projecttypes,What kind of projects do you develop in Rust?,CHECKBOX,34,5
+go_how,How do you use Go?,RADIO,35,2
+go_templateengines,Which template engine do you use for Go development?,CHECKBOX,35,6
+go_ide,Which IDE / editor do you mostly use for Go development?,RADIO,35,8
+position_level,Which of the following best describes the level of your current position?,RADIO,3,4
+do_crossplatform,Do you develop cross-platform software?,RADIO,46,1
+crossplatform_platform,For which target platforms do you develop cross-platform software?,CHECKBOX,46,2
+crossplatform_how_os,How do you usually work with different operating systems / platforms?,CHECKBOX,46,3
+vcs_how,"How do you prefer to work with a version control system (Git, SVN, etc.)",CHECKBOX,18,6
+is_testing_integral,Is testing an integral part of the development process in your company / team?,RADIO,44,1
+do_case_design,Does your testing process include test case design?,RADIO,44,3
+test_design_how,How are test design and test execution performed in your company?,RADIO,44,4
+testing_types,Which types of testing are used in your project? ,CHECKBOX,44,5
+testers_qa_ratio,What is the ratio of the number of testers / QA Engineers to software developers in your project?,RADIO,44,7
+store_testcases,What tools do you use to store test cases?,CHECKBOX,44,10
+test_management_tools, What test management tools do you use?,CHECKBOX,44,11
+automated_tests,Please provide an estimate of how many of your project tests are automated?,RADIO,44,12
+auto_tests_pl,Which programming languages do you use for test automation in your project?,CHECKBOX,44,14
+testers_qa_pskills,How many testers / QA Engineers have <u>programming skills</u> in your project?,RADIO,44,8
+testers_qa_manual,How many testers / QA Engineers do only <u>manual testing</u> in your project?,RADIO,44,9
+auto_tests_frameworks,"Which test frameworks / tools / technologies do you use, if any?",CHECKBOX,44,13
+go_buildsystem,"Which build systems do you regularly use, if any?",CHECKBOX,36,11
+devops_run_cont_apps,How do you run your containerized application during development?,CHECKBOX,47,9
+lifestyle_infosource,What sources of information do you use in general?,CHECKBOX,63,2
+lifestyle_adblock,Do you use any tools for blocking online advertisements (such as AdBlock)?,RADIO,64,2
+lifestyle_smartphone,Do you use your smartphone to read professional materials?,RADIO,64,3
+lifestyle_personal_data,How do you feel about personal data collection?,RADIO,64,4
+lifestyle_charity,Do you contribute to charity in any way?,RADIO,65,3
+lifestyle_charity_reasons,"People volunteer, donate their time and money, and participate in charitable causes for a variety of reasons. What are some of your reasons or motivations for doing so?",CHECKBOX,65,5
+lifestyle_charity_practices,What charitable practices do you participate in?,CHECKBOX,65,6
+lifestyle_charity_imp,What areas are of most importance for you in your charitable practices? (Please select up to 3),CHECKBOX,65,7
+lifestyle_hobbies,What hobbies do you pursue in your free time? (Please choose up to 3) ,CHECKBOX,64,5
+pull_requests,Do you use pull/merge requests in your company / organization workflow?,RADIO,18,7
+lifestyle_infosource_for,What do you use each type of information source for? ,TABLE,64,1
+jb_prod_use,Which of the following JetBrains products do you <strong>currently use</strong>?,CHECKBOX,5,2
+jb_prod_exp,Which of the following JetBrains products <strong>have you already tried</strong>?,CHECKBOX,5,3
+code_yrs,How many years of professional coding experience do you have?,RADIO,4,2
+ruby_front_js,Do you use any frontend JavaScript framework along with Ruby on Rails or another server-side Ruby framework?,CHECKBOX,26,5
+cpp_err_report_mthds,What error reporting methods are allowed on your current project (work or school)?,CHECKBOX,20,13
+php_how_debug,How do you usually debug PHP code?,RADIO,23,4
+php_async_libs,Do you use any libraries or frameworks for asynchronous PHP?,CHECKBOX,23,6
+php_run_apps_prod,How do you run your PHP applications in production?,CHECKBOX,23,7
+mooc_platform,What Massive Open Online Course (MOOC) platforms do you use?,CHECKBOX,54,4
+bigdata_platform_use,"Which big data analytics platforms do you use?
+<div id=""gtx-trans"" style=""position: absolute; left: -35px; top: 25px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",CHECKBOX,41,3
+bigdata_spark_version_use,What Spark version do you use?,CHECKBOX,41,5
+bigdata_tools_use,Which big data tools do you use?,CHECKBOX,41,4
+bigdata_where_hosted,Where is most of your data hosted?,RADIO,41,6
+db_how_long,How long have you worked with databases?,RADIO,39,3
+db_debug_stored_proc,Do you debug stored procedures?,RADIO,39,4
+db_have_tests,Do you have tests in your database?,RADIO,39,5
+db_keep_scripts_vcs,Do you keep your database scripts in a version control system?,RADIO,39,6
+db_connections,How many connections do you have in your database explorer?,RADIO,39,7
+db_do_comm,Do you write comments for the database objects?,RADIO,39,8
+db_n_rows,Approximately how many rows (or equivalent) does your largest table have?,RADIO,39,9
+mcrsrvc_design_approaches,What approaches do you use in your system design?,CHECKBOX,46,5
+mcrsrvc_parts_communicate,How do the distributed parts of your application communicate?,CHECKBOX,46,6
+mcrsrvc_code_or_spec,"When you implement new web-service APIs, do you start from the code or the specification?",RADIO,46,7
+mcrsrvc_how_declare,How do you declare and document your APIs?,CHECKBOX,46,8
+mcrsrvc_store_api_spec,Where do you store API specifications?,RADIO,46,9
+mcrsrvc_how_vcs,How do you organize version control for services?,RADIO,46,10
+pairprog_tools_remote,What tools do you use for remote pair programming?,CHECKBOX,60,1
+pairprog_ide,What editor / IDE do you use for collaborative development?,CHECKBOX,60,2
+pairprog_how_cloud,How do you use cloud services in your development workflow?,CHECKBOX,60,3
+pairprog_why_cloud,I use cloud services because:,CHECKBOX,60,4
+r_version,Which version of R do you mainly use? ,RADIO,37,2
+r_ide,What IDE do you use to code R?,CHECKBOX,37,3
+r_what_for,What do you use R for?,CHECKBOX,37,4
+r_do_libs,Have you ever written(or contributed to) an R package?,RADIO,37,5
+r_use_libs,Which of the following packages do you regularly use with R?,CHECKBOX,37,6
+r_code_form,Which form of R code organization do you use?,CHECKBOX,37,7
+r_execute,Where do you execute R code?,CHECKBOX,37,8
+swiftoc_plan_catalyst,Do you plan to use Mac Catalyst to adapt your iOS applications to macOS?,RADIO,27,3
+swiftoc_plan_spm,Do you plan to replace CocoaPods dependencies with SPM packages?,RADIO,27,12
+swiftoc_ide,Which editor / IDE do you primarily use for server-side development with Swift?,RADIO,27,19
+edu_type_of_inst,What type of educational institution do you go to?,RADIO,55,1
+edu_degree,Which of the following degrees are you currently pursuing? ,RADIO,55,2
+edu_major_sub,What subject is your major?,RADIO,55,3
+bigdata_stat_libs,"Which statistics package(s) do you use to analyze and visualize data, if any?",CHECKBOX,41,2
+space_use_dashboards,Do you use any dashboards or reporting solutions at work?,RADIO,53,2
+rust_missed_ftrs,What Rust features do you miss the most in IDEs?,CHECKBOX,34,2
+work_day_start,What time do you usually start your working day?,RADIO,59,5
+rust_how_debug,How do you usually debug your Rust code?,RADIO,34,3
+edu_pl,What programming languages have you studied at your educational institution?,CHECKBOX,55,4
+edu_tools_adviced,"Which of the following tools do your teachers / professors advise you to use, if any?",CHECKBOX,55,5
+activities_kinds,In which kinds of activities are you involved?,CHECKBOX,3,6
+target_platforms,For which platforms do you develop?,CHECKBOX,3,7
+sw_types_developed,"What types of software do you develop (including apps in any programming language, for either professional or personal purposes)?",CHECKBOX,3,8
+java_sw_developed,What types of software do you develop with Java?,CHECKBOX,40,12
+c_sw_developed,What types of software do you develop with С?,CHECKBOX,19,8
+cpp_sw_developed,What types of software do you develop with C++?,CHECKBOX,20,16
+mobile_ndevs_ios_andoid,How many developers work on your mobile application on both iOS and Android simultaneously (including yourself)?,RADIO,42,4
+mobile_apps_functionality,Which of the following best describes the functionality of the mobile app you currently develop?,RADIO,42,5
+mobile_apps_components,Which of the following components do you use in the mobile app you currently develop?,CHECKBOX,42,6
+mobile_UI_native_imp,How important is it for you that your mobile app's UI has a native appearance?,RADIO,42,7
+mobile_UI_perfom_imp,How important is it for you that your mobile app's UI has a high performance?,RADIO,42,8
+scala_use_dotty,Do you use or plan to use Scala 3 (Dotty)?,RADIO,29,8
+scala_tools,What other tools do you use for Scala?,CHECKBOX,29,7
+go_sw_peveloped,What types of software do you develop with Go?,CHECKBOX,35,9
+kotlin_jb_libs,"<span style=""font-size:16px;"">What JetBrains Kotlin libraries and frameworks do you currently use, if any?</span>",CHECKBOX,24,4
+kotlin_libs,"<span style=""font-size:16px;"">What other Kotlin libraries and frameworks do you currently use, if any?</span>",CHECKBOX,24,5
+mcrsrvc_do,Do you develop microservices? ,RADIO,46,4
+cpp_move_11,"Do you plan to move from C++11 to another C++ standard in the next 12 months? If so, to which one?",RADIO,20,4
+cpp_move_14,"Do you plan to move from C++14 to another C++ standard in the next 12 months? If so, to which one?",RADIO,20,5
+cpp_move_17,"Do you plan to move from C++17 to another C++ standard in the next 12 months? If so, to which one?",RADIO,20,6
+cpp_move_98,"Do you plan to move from C++98 / C++03 to another C++ standard in the next 12 months? If so, to which one?",RADIO,20,3
+php_sw_developed,What types of software do you develop with PHP?,CHECKBOX,23,13
+kotlin_ide,"<span style=""font-size:16px;"">Which IDE do you use most regularly for Kotlin development?</span>
+<div id=""gtx-trans"" style=""position: absolute; left: -52px; top: 27.2222px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",RADIO,24,12
+know_jb,What do you know about JetBrains?,RADIO,5,1
+space_tooling_stack,Is your company / organization tied to any tooling stack / platform?,CHECKBOX,53,12
+space_tools_code_review,Which tools do you use in your company / organization for Code Review?,CHECKBOX,53,4
+space_tools_repo,Which tools do you use in your company / organization for Artifact / Repository Management?,CHECKBOX,53,3
+comp_ram,How much RAM do you have on the computer you use most often?,RADIO,50,1
+ruby_sw_developed,What types of software do you develop with Ruby?,CHECKBOX,26,6
+scala_sw_developed,What types of software do you develop with Scala? ,CHECKBOX,29,9
+country,"What is your country or region? 
+<div id=""gtx-trans"" style=""position: absolute; left: 142px; top: 25px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",MENU,4,5
+comp_disk_type,What disc type do you use most often for your work?,RADIO,50,2
+company_coders,How many people write code at your company (approximately)?,RADIO,58,2
+swiftoc_unittesting_write,Do you write unit-tests for your Swift or Objective-C development?,RADIO,27,6
+csharp_lang,"Which programming languages are you using in your .NET project?
+<div id=""gtx-trans"" style=""position: absolute; left: -86px; top: 25px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",CHECKBOX,22,3
+VS_subscription,Does your employer cover your Visual Studio subscription?,RADIO,22,12
+csharp_performance_when,When do you usually use profiling or diagnostics tools?,RADIO,22,15
+csharp_performance_who,Who is responsible for profiling or diagnostics in your project?,RADIO,22,16
+graphql_approach,Which approach to development with GraphQL is used in the project you're currently working on?,RADIO,38,1
+graphql_tasks,What tasks with GraphQL do you personally do?,CHECKBOX,38,2
+graphql_tech,Which GraphQL-related technologies are used in the projects you’re working with?,CHECKBOX,38,3
+go_proxy,What kind of Go modules proxy do you use?,CHECKBOX,36,3
+go_vendoring,Do you use vendoring in your project?,RADIO,36,4
+r_debug,What do you use to debug your code? ,CHECKBOX,37,9
+"",Is your current project planning to use any of these C++20 features in the next 12 months?,CHECKBOX,20,7
+vs_plugins,"What plugins for Visual Studio do you use, if any?",CHECKBOX,20,10
+cpp_other_lang,Which other programming languages do you use in your projects along with C++?,CHECKBOX,20,17
+kotlin_ide_enough,Do you feel the IDE provides enough features to support the language and related technologies?,RADIO,24,13
+kotlin_ide_satisfaction,"How satisfied are you overall with the performance of the IDE (responsiveness, code highlighting, completion speed, etc.)?",RADIO,24,14
+kotlin_ide_support,"How would you rate the overall quality of the Kotlin support in the IDE (refactorings, code completion, debugging experience, etc.)?",RADIO,24,15
+kotlin_what_for,What do you use Kotlin for?,CHECKBOX,24,2
+kotlin_how_learn,"How did you learn Kotlin?
+<div id=""gtx-trans"" style=""position: absolute; left: -11px; top: -20px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",RADIO,24,11
+ci_jenkins,Jenkins,CHECKBOX,17,1
+ci_gitlab_ci,Gitlab CI,CHECKBOX,17,2
+ci_travis_ci,Travis CI,CHECKBOX,17,3
+ci_github_actions,GitHub Actions,CHECKBOX,17,4
+ci_circleci,CircleCI,CHECKBOX,17,5
+ci_azure_devops,Azure DevOps,CHECKBOX,17,6
+ci_teamcity,TeamCity,CHECKBOX,17,7
+ci_bitbucket_pipelines,Bitbucket Pipelines,CHECKBOX,17,8
+ci_aws_codepipeline,AWS CodePipeline / AWS CodeStar,CHECKBOX,17,9
+ci_bamboo,Bamboo,CHECKBOX,17,10
+ci_google_cloud_build,Google Cloud Build,CHECKBOX,17,11
+ci_appveyor,AppVeyor,CHECKBOX,17,12
+ci_drone,Drone,CHECKBOX,17,13
+ci_gocd,GoCD,CHECKBOX,17,14
+ci_codeship,Codeship,CHECKBOX,17,15
+ci_custom_tool,Custom tool,CHECKBOX,17,16
+vcs,"Which Version Control Services do you regularly use, if any?",TABLE,17,5
+vcs_github,GitHub,CHECKBOX,17,1
+vcs_gitlab,GitLab,CHECKBOX,17,2
+vcs_bitbucket,Bitbucket,CHECKBOX,17,3
+vcs_azure_devops_(former_microsoft_tfs_/_visual_studio_team_services),Azure DevOps (former Microsoft TFS / Visual Studio Team Services),CHECKBOX,17,4
+vcs_amazon_codecommit,Amazon CodeCommit,CHECKBOX,17,5
+vcs_perforce,Perforce,CHECKBOX,17,6
+vcs_sourceforge,SourceForge,CHECKBOX,17,7
+vcs_phabricator,Phabricator,CHECKBOX,17,8
+vcs_teamforge_scm,TeamForge SCM,CHECKBOX,17,9
+vcs_assembla,Assembla,CHECKBOX,17,10
+vcs_helix_core_version_control,Helix Core Version Control,CHECKBOX,17,11
+vcs_gitcolony,Gitcolony,CHECKBOX,17,12
+vcs_rhodecode,RhodeCode,CHECKBOX,17,13
+vcs_custom_tool,Custom tool,CHECKBOX,17,14
+vcs_none,None,CHECKBOX,17,15
+tools_company_jira,Jira,CHECKBOX,17,1
+tools_company_confluence,Confluence,CHECKBOX,17,2
+tools_company_github_issues,GitHub Issues,CHECKBOX,17,3
+tools_company_trello,Trello,CHECKBOX,17,4
+tools_company_gitlab_issues,GitLab Issues,CHECKBOX,17,5
+tools_company_redmine,Redmine,CHECKBOX,17,6
+tools_company_youtrack,YouTrack,CHECKBOX,17,7
+tools_company_asana,Asana,CHECKBOX,17,8
+tools_company_azure_devops,Azure DevOps,CHECKBOX,17,9
+tools_company_microsoft_teams,Microsoft Teams,CHECKBOX,17,10
+tools_company_microsoft_project,Microsoft Project,CHECKBOX,17,11
+tools_company_notion,Notion,CHECKBOX,17,12
+tools_company_basecamp,Basecamp,CHECKBOX,17,13
+tools_company_monday,Monday.com,CHECKBOX,17,14
+tools_company_miro,Miro,CHECKBOX,17,15
+tools_company_wrike,Wrike,CHECKBOX,17,16
+tools_company_custom_tool,Custom tool,CHECKBOX,17,17
+doc_type,What type of documentation do you write?,CHECKBOX,45,1
+doc_tools,What tools do you use to author documentation?,CHECKBOX,45,2
+doc_solution,Please specify which professional help authoring solution do you use?,CHECKBOX,45,3
+doc_consider,Have you considered using a professional tool for technical writing?,RADIO,45,6
+game_is_hobby,Do you develop games professionally or as a hobby?,RADIO,43,1
+game_engines,Which game engines do you use?,CHECKBOX,43,2
+game_platforms,Which platforms do you target in your game development?,CHECKBOX,43,3
+game_distribute,Where do you distribute your games?,CHECKBOX,43,4
+game_genre,What genres of games do you develop?,CHECKBOX,43,5
+game_kind,What kind of game development do you do?,CHECKBOX,43,6
+game_lang,Which of the following programming languages have you used for your game projects in the last 12 months?,CHECKBOX,43,7
+game_vcs_assets,In which version control systems do you store the game files (assets)?,CHECKBOX,43,8
+edu_level,Which of the following best describes the highest level of formal education that you’ve completed?,RADIO,4,3
+tools_personal,Which of the following tools do you use for <strong>your personal use</strong> for...,TABLE,17,3
+tools_personal_jira,Jira,CHECKBOX,17,1
+tools_personal_confluence,Confluence,CHECKBOX,17,2
+tools_personal_github_issues,GitHub Issues,CHECKBOX,17,3
+tools_personal_trello,Trello,CHECKBOX,17,4
+tools_personal_gitlab_issues,GitLab Issues,CHECKBOX,17,5
+tools_personal_redmine,Redmine,CHECKBOX,17,6
+tools_personal_youtrack,YouTrack,CHECKBOX,17,7
+tools_personal_asana,Asana,CHECKBOX,17,8
+tools_personal_azure_devops,Azure DevOps,CHECKBOX,17,9
+tools_personal_microsoft_teams,Microsoft Teams,CHECKBOX,17,10
+tools_personal_microsoft_project,Microsoft Project,CHECKBOX,17,11
+tools_personal_notion,Notion,CHECKBOX,17,12
+tools_personal_basecamp,Basecamp,CHECKBOX,17,13
+tools_personal_monday,Monday.com,CHECKBOX,17,14
+tools_personal_miro,Miro,CHECKBOX,17,15
+tools_personal_wrike,Wrike,CHECKBOX,17,16
+tools_personal_custom_tool,Custom tool,CHECKBOX,17,17
+gender,Gender:,RADIO,4,6
+rust_ide_setup,Which IDE setup(s) do you use?,CHECKBOX,31,6
+"",Which of the following educational institutions / resources allowed you to take the first big step towards becoming a developer?,CHECKBOX,54,1
+learn_quit_before,Have you ever quit learning courses / programs before finishing?,RADIO,54,7
+learn_why_stop,Why did you stop learning?  ,CHECKBOX,54,8
+edu_teach_type,At what type of educational institution do you teach?,RADIO,56,1
+edu_teach_level,For what level of education do you teach?,RADIO,56,2
+edu_teach_subject,"What subject do you teach?
+<div id=""gtx-trans"" style=""position: absolute; left: -131px; top: -20px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",RADIO,56,3
+edu_teach_lang,What programming languages have you taught?,CHECKBOX,56,4
+edu_teach_tools,"Which of the following tools do you recommend to students, if any?",CHECKBOX,56,5
+teaching_what,What is teaching for you?,RADIO,4,1
+ide_main,Which IDE / editor do you use the most?,RADIO,16,1
+ide_long,How long have you been using your main IDE?,RADIO,16,3
+testing_how,How do you perform testing for your product?,CHECKBOX,44,2
+testing_bdd,"Which BDD (Behavior Driven Development) technologies do you use, if any?",CHECKBOX,44,15
+testing_ai,Do you use AI/ML in the testing of your product?,CHECKBOX,44,16
+testing_metrics,Which test coverage metrics do you use for unit testing?,CHECKBOX,44,6
+use_wsl,Do you use Windows Subsystem for Linux (WSL) for local development?,CHECKBOX,13,5
+born_here,"Were you born in [question('value'), id='949']?
+<div id=""gtx-trans"" style=""position: absolute; left: 175px; top: 25px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",RADIO,61,5
+born_country,"In which country were you born?
+<div id=""gtx-trans"" style=""position: absolute; left: -9px; top: 25px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",MENU,61,6
+fun_dream_engineer,Did you dream of becoming a software engineer when you were a child?,RADIO,14,4
+fun_videogames,Do you play video games?,RADIO,7,3
+fun_platforms,"What platforms do you play games on?
+<div id=""gtx-trans"" style=""position: absolute; left: -5px; top: -20px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",CHECKBOX,7,4
+fun_consoles,"What console do you use?
+<div id=""gtx-trans"" style=""position: absolute; left: 128px; top: 25px;"">
+<div class=""gtx-trans-icon""> </div>
+</div>",CHECKBOX,7,5
+cloud_services_most,Which cloud service do you use the most? ,RADIO,48,4
+fun_headphones,Which headphones do you mainly use?,RADIO,16,4
+kotlin_sw_developed,What types of software do you develop with Kotlin?,CHECKBOX,24,10
+you_are,"Taking all things together, would you say you are:",RADIO,67,2
+life_satisfied,"All things considered, how satisfied are you with your life as a whole these days?",RADIO,67,3
+job_satisfied,How satisfied are you in your (main) job?,RADIO,67,4
+government_video,Keep people under video surveillance in public areas,RADIO,67,1
+government_monitor_all,Monitor all e-mails and any other information exchanged on the Internet,RADIO,67,2
+government_collect,Collect information about anyone living in country without their knowledge,RADIO,67,3
+person1_ideas,Thinking up new ideas and being creative is important to this person; to do things in their own original way.,RADIO,68,1
+person1_rich,It is important to this person to be rich; to have a lot of money and expensive things.,RADIO,68,2
+person1_equal,This person thinks it is important that every person in the world should be treated equally. This person believes everyone should have equal opportunities in life.,RADIO,68,3
+person1_admire,It's important to this person to show their abilities. This person wants people to admire what they do.,RADIO,68,4
+person1_secure,It is important to this person to live in secure surroundings. This person avoids anything that might endanger their safety.,RADIO,68,5
+person1_surprise,This person likes surprises and is always looking for new things to do. This person thinks it is important to do lots of different things in life.,RADIO,68,6
+person1_rules,"This person believes that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",RADIO,68,7
+person1_different,"It is important to this person to listen to people who are different from them. Even when this person disagrees with them, they still want to understand them.",RADIO,68,8
+person1_humble,It is important to this person to be humble and modest. They try not to draw attention to themselves.,RADIO,68,9
+person1_goodtime,Having a good time is important to this person. They like to 'spoil' themselves.,RADIO,68,10
+person1_decision,It is important to this person to make their own decisions about what this person does. They like to be free and not depend on others.,RADIO,68,11
+choose_research,"When choosing a new development tool, how do you discover and research available solutions?",CHECKBOX,58,10
+company_decisions,How does your company make decisions about purchasing development tools?,RADIO,58,11
+writing_assist,"Do you use any of the writing assistance tools, e.g. to proofread grammar?",CHECKBOX,51,5
+language_work,What language do you use at work?,CHECKBOX,4,7
+language_is_same,Do you speak at home or with friends in the same language as you use at work?,RADIO,4,8
+languages_family,What languages do you use with family and friends?,CHECKBOX,4,9
+comp_cores,How many physical CPU cores do you have on the computer you use most often?,RADIO,50,4
+comp_gpu,What type of GPU do you have on the computer you use most often?,CHECKBOX,50,6
+comp_mon,How many monitors do you use for your work?,RADIO,50,8
+comp_display_scaling,What display scaling do you have on the computer you use most often?,RADIO,50,9
+pay_most_often,How do you pay most often? Please choose up to 3 options. ,CHECKBOX,51,6
+fun_lunch,Where do you usually take lunch during your working days?,RADIO,10,3
+lifestyle_search,"When you search for information related to your job, how do you usually do it? ",CHECKBOX,63,3
+person2_help,It's very important to this person to help the people around them. They want to care for their well-being.,RADIO,68,1
+person2_success,Being very successful is important to this person. They hope people will recognise their achievements.,RADIO,68,2
+person2_government_safety,It is important to this person that the government ensures their safety against all threats. They want the state to be strong so it can defend its citizens.,RADIO,68,3
+person2_adventures,This person looks for adventures and likes to take risks. They want to have an exciting life.,RADIO,68,4
+person2_properly,It is important to this person always to behave properly. They want to avoid doing anything people would say is wrong.,RADIO,68,5
+person2_respect,It is important to this person to get respect from others. They want people to do what this person says.,RADIO,68,6
+person2_friends,It is important to this person to be loyal to friends. They want to devote themselves to people close to them.,RADIO,68,7
+person2_nature,This person strongly believes that people should care for nature. Looking after the environment is important to them.,RADIO,68,8
+person2_tradition,Tradition is important to this person. They try to follow the customs handed down by their religion or their family.,RADIO,68,9
+person2_fun,This person seeks every chance to have fun. It is important to them to do things that give them pleasure.,RADIO,68,10
+run_backing_where,"During development, where do you run your backing services? Backing services are third-party applications your code connects to, e.g. a database, a queue broker, or a mail server.",CHECKBOX,13,7
+comp_old,How old is the computer you use most often?,RADIO,50,3
+run_code_where,"During development, where do you run and debug your code?",CHECKBOX,13,6
+devops_backing_count,"How many separately-running backing services (those you don’t develop, like MySQL, Redis, CloudFront) does your application have?",RADIO,49,4
+devops_comp_count,"How many separately-running components does your application have, excluding backing services?<br />
+These are components you develop or are developed by others at your company.",RADIO,49,5
+job_important,Here are some aspects of a job that people say are important. Please look at them and select ones you personally think are important in a job.,CHECKBOX,67,5
+ci_none,None,CHECKBOX,17,17
+tools_company_none,None,CHECKBOX,17,18
+tools_personal_none,None,CHECKBOX,17,18
+work_in_office,In the office,CHECKBOX,5,1
+work_from_home,From home,CHECKBOX,5,2
+work_coworking,Coworking,CHECKBOX,5,3
+work_from_cafe,Cafe,CHECKBOX,5,4
+fun_snack,Do you like to snack while coding?,RADIO,13,10
+fun_drink,What do you prefer to drink while coding?,CHECKBOX,13,11
+events_conf,Conferences,CHECKBOX,65,1
+events_usergroups,User groups,CHECKBOX,65,2
+events_meetups,Meetups,CHECKBOX,65,3
+events_workshops,Workshops,CHECKBOX,65,4
+js_sw_types_developed,What types of software do you develop with JavaScript? ,CHECKBOX,30,7
+cloud_services_familiar3,"How familiar are you with [question(""value""), id=""1105""]?",RADIO,49,3
+is_employed,Is employed? (generated),Fiction,,
+primary,What are your primary programming languages? (generated),Fiction,,
+source,source (generated),Fiction,,
+know_jb_fixed,know_jb fixed,Fiction,,
+region,Region or country,Fiction,,
